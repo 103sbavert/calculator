@@ -1,0 +1,53 @@
+* {
+	font-family: "Product Sans", sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+.calculator {
+	width: max-content;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.keypad {
+	border: black solid 1px;
+	display: flex;
+	gap: 12px;
+}
+
+.key-column {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.key {
+	height: 60px;
+	width: 60px;
+	background: skyblue;
+	display: flex;
+	flex:  0 0 auto;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+.key#equals {
+	flex: 2 0 auto;
+	border-radius: 12px;
+}
+
+.screen {
+	gap: 24px;
+	border: black solid 1px;
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	align-self: flex-end;
+}
