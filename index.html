@@ -9,42 +9,39 @@
 <body>
 <div class="calculator">
 	<div class="screen">
-		<div class="input">
-			1 + 1
-		</div>
-		<div class="result">
-			2
-		</div>
+		Start Typing
 	</div>
-	<div class="keypad">
-		<div id="column-1" class="key-column">
-			<div id="all-clear" class="key special-key">AC</div>
-			<div id="seven" class="key number">7</div>
-			<div id="four" class="key number">4</div>
-			<div id="one" class="key number">1</div>
-			<div id="zero" class="key number">0</div>
-		</div>
-		<div id="column-2" class="key-column">
-			<div id="percentage" class="key operator">%</div>
-			<div id="eight" class="key number">8</div>
-			<div id="five" class="key number">5</div>
-			<div id="two" class="key number">2</div>
-			<div id="decimal" class="key special-key">.</div>
-		</div>
-		<div id="column-3" class="key-column">
-			<div id="divide" class="key operator">÷</div>
-			<div id="nine" class="key number">9</div>
-			<div id="six" class="key number">6</div>
-			<div id="three" class="key number">3</div>
-			<div id="backspace" class="key special-key">⌫</div>
-		</div>
-		<div id="column-4" class="key-column">
-			<div id="multiply" class="key operator">×</div>
-			<div id="subtract" class="key operator">-</div>
-			<div id="add" class="key operator">+</div>
-			<div id="equals" class="key special-key">=</div>
-		</div>
-	</div>
+	<table class="keypad">
+		<tr>
+			<td id="all-clear" class="key special">AC</td>
+			<td id="percent" class="key operator">%</td>
+			<td id="divide" class="key operator">/</td>
+			<td id="multiply" class="key operator">*</td>
+		</tr>
+		<tr>
+			<td id="seven" class="key number">7</td>
+			<td id="eight" class="key number">8</td>
+			<td id="nine" class="key number">9</td>
+			<td id="subtract" class="key operator">-</td>
+		</tr>
+		<tr>
+			<td id="four" class="key number">4</td>
+			<td id="five" class="key number">5</td>
+			<td id="six" class="key number">6</td>
+			<td id="add" class="key operator">+</td>
+		</tr>
+		<tr>
+			<td id="one" class="key number">1</td>
+			<td id="two" class="key number">2</td>
+			<td id="three" class="key number">3</td>
+			<td id="equals" class="key operator" rowspan="2">=</td>
+		</tr>
+		<tr>
+			<td id="zero" class="key number">0</td>
+			<td id="decimal" class="key special">.</td>
+			<td id="backspace" class="key special"><-</td>
+		</tr>
+	</table>
 </div>
 </body>
 </html>

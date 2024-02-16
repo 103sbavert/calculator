@@ -3,51 +3,51 @@
 }
 
 body {
+	height: 100vh;
 	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: whitesmoke;
+}
+
+.screen {
+	padding: 12px;
+	text-align: right;
+	font-size: 24px;
 }
 
 .calculator {
 	width: max-content;
 	display: flex;
 	flex-direction: column;
+	border: black 4px solid;
+	border-radius: 16px;
+	background: lightgray;
+	overflow: hidden;
 	gap: 24px;
 }
 
 .keypad {
-	border: black solid 1px;
-	display: flex;
-	gap: 12px;
-}
-
-.key-column {
-	display: flex;
-	flex-direction: column;
-	gap: 12px;
+	border-spacing: 0;
 }
 
 .key {
-	height: 60px;
-	width: 60px;
+	height: 80px;
+	width: 80px;
 	background: skyblue;
-	display: flex;
-	flex:  0 0 auto;
-	border-radius: 50%;
-	align-items: center;
-	justify-content: center;
+	text-align: center;
+	border: 1px lightblue solid;
 }
 
 .key#equals {
-	flex: 2 0 auto;
-	border-radius: 12px;
+	background: seagreen;
 }
 
-.screen {
-	gap: 24px;
-	border: black solid 1px;
-	display: flex;
-	flex-direction: column;
+.key.operator {
+	background: mediumseagreen;
 }
 
-.input {
-	align-self: flex-end;
+.key.special {
+	background: cornflowerblue;
 }
