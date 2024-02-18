@@ -37,7 +37,6 @@ body {
 	width: 80px;
 	background: skyblue;
 	text-align: center;
-	border: 1px lightblue solid;
 }
 
 .key#equals {
@@ -50,4 +49,8 @@ body {
 
 .key.special {
 	background: cornflowerblue;
+}
+
+.pressed-key {
+	border-radius: 50%;
 }
